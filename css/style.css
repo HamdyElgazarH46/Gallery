@@ -1,0 +1,32 @@
+
+
+body {
+    background-color: #222;
+}
+
+
+
+.thumbnail img {
+    width: 120px;
+    height: 100px;
+    margin: 5px;
+    border: 2px solid #eee;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+    transition-property: border;
+}
+
+.thumbnail img:hover {
+    border: 2px solid #333;
+}
+.preview img {
+    width: 900px;
+    margin: 5px;
+    height: 530px;
+    border: 2px solid #eee;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+}
+
+
